@@ -1,0 +1,2 @@
+Prefix plugins/ClosestBED/example/
+Plugin ClosestBED inputfile parameters.txt outputfile closest.txt
