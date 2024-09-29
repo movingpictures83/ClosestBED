@@ -16,8 +16,9 @@ void ClosestBEDPlugin::output(std::string file) {
 myCommand += "closestBed -a";
 myCommand += " ";
 addRequiredParameterNoFlag("A");
-addRequiredParameterNoFlag("B");
+addRequiredParameter("-b", "B");
 myCommand += " >& "+outputfile + " ";
+std::cout << myCommand << std::endl;
  system(myCommand.c_str());
 }
 
