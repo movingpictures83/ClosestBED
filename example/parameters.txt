@@ -1,2 +1,2 @@
 A	plugins/ClosestBED/example/A.bed
-B	plugins/ClosestBED/example/B.bed
+B	plugins/ClosestBED/example/B.sorted.bed
